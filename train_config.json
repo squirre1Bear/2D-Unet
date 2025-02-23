@@ -1,0 +1,31 @@
+{
+  "num_classes": 2,
+  "batch_size": 2,
+  "num_epoch": 50,
+  "lr": 0.0001,
+  "weight_decay": 1e-4,
+  "momentum": 0.95,
+  "train_data": "E:\\LIDC_dataset\\2D_center_data\\train_center_image_list.npy",
+  "train_labels": "E:\\LIDC_dataset\\2D_center_data\\train_center_label_list.npy",
+  "valid_data": "E:\\LIDC_dataset\\2D_center_data\\valid_center_image_list.npy",
+  "valid_labels": "E:\\LIDC_dataset\\2D_center_data\\valid_center_label_list.npy",
+  "test_data": "E:\\LIDC_dataset\\2D_center_data\\test_center_image_list.npy",
+  "test_labels": "E:\\LIDC_dataset\\2D_center_data\\test_center_label_list.npy",
+
+  "trainPic_dir":"E:\\LIDC_dataset\\2D_center_data\\train_pic",
+  "trainLab_dir":"E:\\LIDC_dataset\\2D_center_data\\train_label",
+  "validPic_dir":"E:\\LIDC_dataset\\2D_center_data\\valid_pic",
+  "validLab_dir":"E:\\LIDC_dataset\\2D_center_data\\valid_label",
+  "testPic_dir":"E:\\LIDC_dataset\\2D_center_data\\test_pic",
+  "testLab_dir":"E:\\LIDC_dataset\\2D_center_data\\test_label",
+
+  "summary_path": "C:\\Users\\91604\\Desktop\\lungSeg\\2D_UNet\\runs",
+  "model_name": "2D_ECA",
+  "save_model": {
+    "save": true,
+    "save_path": "saved/"
+  },
+  "trained_model_path": "C:\\Users\\91604\\Desktop\\lungSeg\\2D_UNet\\saved\\unet.pth",
+  "predict_img_path": "C:\\Users\\91604\\Desktop\\lungSeg\\2D_UNet\\predict",
+  "ratio": 16
+}
